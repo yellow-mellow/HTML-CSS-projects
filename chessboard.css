@@ -1,0 +1,40 @@
+table.chessboard {
+  border-collapse: collapse;
+  padding: 0.5em;
+  width: 640px;
+  height: 640px;
+  margin: 20px;
+  border: 25px solid #333;
+}
+
+table.chessboard td {
+  border: thin solid black;
+  padding: 0.5em;
+  width: 2em;
+  height: 2em;
+  text-align: center;
+  vertical-align: middle;
+}
+
+table.chessboard tbody :nth-child(odd) {
+  background-color: rgb(168, 168, 168);
+}
+
+table.chessboard tbody :nth-child(even) {
+  background-color: rgb(240, 240, 240);
+}
+
+table.chessboard tbody :first-child {
+  background-color: white;
+}
+table.chessboard tbody :last-child {
+  background-color: white;
+}
+
+table.chessboard thead {
+  background-color: white;
+}
+
+table.chessboard tbody tr th {
+  background-color: white;
+}

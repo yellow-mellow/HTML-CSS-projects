@@ -1,0 +1,91 @@
+table.puzzle {
+  margin: auto;
+  border-collapse: collapse;
+}
+
+table th,
+table td {
+  width: 3rem;
+  height: 3rem;
+}
+
+table.puzzle td {
+  border: thin solid black;
+}
+
+table.puzzle th {
+  padding: 0.5em;
+  color: lightgray;
+}
+
+.border {
+  border: thin solid black;
+}
+
+.fillRight {
+  border-right: thick solid black;
+}
+
+.fillLeft {
+  border-left: thick solid black;
+}
+
+.fillUp {
+  border-top: thick solid black;
+}
+
+.fill {
+  background-color: lightblue;
+  border-top: thick black solid;
+  border-bottom: thick black solid;
+}
+
+.fillDown {
+  border-bottom: thick solid black;
+}
+
+.fill left and blue {
+  border-left: thick solid black;
+  background-color: lightblue;
+}
+
+.fill right and blue {
+  border-right: thick solid black;
+  background-color: lightblue;
+}
+
+.fillupandblue {
+  border-top: thick solid black;
+  background-color: lightblue;
+}
+
+.fill down and blue {
+  border-bottom: thick solid black;
+  background-color: lightblue;
+}
+
+.blue {
+  background-color: lightblue;
+}
+
+table {
+  margin: auto;
+}
+
+table.puzzle > tbody > tr:first-child > td,
+table.puzzle td.top {
+  border-top: thick solid black;
+}
+
+table.puzzle > tbody td:first-of-type,
+table.puzzle td.left {
+  border-left: thick solid black;
+}
+
+table.puzzle > tbody > tr:last-child > td {
+  border-bottom: thick solid black;
+}
+
+table.puzzle > tbody td:last-of-type {
+  border-right: thick solid black;
+}

@@ -1,0 +1,42 @@
+    main {
+        border: thin solid black;
+        padding: 1em;
+        font-family: sans-serif;
+    }
+    
+    table.puzzle td.black {
+        background-color: black;
+    }
+    
+    table.puzzle td.white {
+        border: thin solid black
+    }
+    
+    h1,
+    h2 {
+        font-variant: small-caps;
+    }
+    
+    div.clues {
+        border: thin solid red;
+        padding: 1em;
+    }
+    
+    table.crossword-puzzle,
+    div.clues {
+        margin: 1em;
+    }
+    
+    table.puzzle td {
+        width: 3em;
+        height: 3em;
+        vertical-align: top;
+    }
+    
+    table.puzzle {
+        border-collapse: collapse;
+    }
+    
+    div.container {
+        display: flex;
+    }
